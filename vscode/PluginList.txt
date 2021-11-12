@@ -1,0 +1,14 @@
+Bracket Pair Colorizer 2
+Code Spell Checker
+Delve
+Docker
+ESLint
+GitHub Codespaces
+GitLens - Git supercharged
+Go
+Go Nightly 
+Prettier 
+Regex Previewer
+Snazzy Light
+Thunder Client
+vscode-icons
