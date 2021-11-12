@@ -1,0 +1,134 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDelete": false,
+
+  // Aesthetics
+  "editor.fontSize": 14,
+  "workbench.colorTheme": "Snazzy Light",
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  "bracket-pair-colorizer-2.showVerticalScopeLine": false,
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code', Source Code Pro, mononoki, Menlo, Monaco, 'Courier New', monospace",
+  "workbench.fontAliasing": "antialiased",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "normal",
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "none",
+  "window.zoomLevel": 1,
+  "editor.smoothScrolling": true,
+  "editor.lineHeight": 24,
+  "workbench.editor.labelFormat": "short",
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.enabled": true,
+  "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.editor.showTabs": true,
+
+  // Search
+  "search.exclude": {
+    "**/web": true,
+    "**/web/js": true,
+    "**/assets/templates/cache": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/__snapshots__": true,
+    "**/vendor": true
+  },
+
+  // Dictionary
+  "cSpell.userWords": [
+    "Typey",
+    "Swiper",
+    "monoliph",
+    "vendhq",
+    "webhook",
+    "Niu",
+    "Anran"
+  ],
+
+  // linting
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+
+  // Functionality
+  "editor.renderIndentGuides": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "window.newWindowDimensions": "maximized",
+  "editor.tabCompletion": "on",
+  "breadcrumbs.enabled": true,
+  "files.exclude": {
+    ".yarn/**": true,
+    "**/.DS_Store": true,
+    "cypress/**/*.json": true,
+    "yarn.lock": true
+  },
+  "editor.wordWrap": "on",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "go.formatTool": "goimports",
+
+  // File assosciations
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  // Golang
+  "go.useLanguageServer": true,
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+  },
+  "[go.mod]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "gopls": {
+    "usePlaceholders": true,
+    "staticcheck": false
+  },
+  "go.autocompleteUnimportedPackages": true,
+  "go.toolsManagement.autoUpdate": true,
+
+  // CodeQL
+  "codeQL.telemetry.enableTelemetry": false,
+
+  // Typescript
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // General
+  "editor.suggestSelection": "first",
+  "editor.renderControlCharacters": false,
+  "workbench.statusBar.visible": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.lineHeight": 1.1,
+  "terminal.integrated.fontWeightBold": "100",
+  "terminal.integrated.fontWeight": "100",
+  "terminal.integrated.fontSize": 11,
+  "terminal.integrated.scrollback": 20000,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
